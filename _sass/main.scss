@@ -1,0 +1,30 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.business-card {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.contact-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
