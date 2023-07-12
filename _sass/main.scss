@@ -1,106 +1,88 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300';
+
+$padding:30px;
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #000;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    height: 100vh;
+    background: #757575;
+    overflow-x: hidden;
+}
+
+.card {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    perspective: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-face, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(20,20,20);
+    transition: transform 1s;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.card:hover .card-face {
+    transform: rotateY(180deg);
+}
+
+.card:hover .card-back {
+    transform: rotateY(0);
+}
+
+.content {
+    outline: 1px solid #19F6E8;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-// .business-card {
-//     text-align: center;
-//     width: 80vw;
-//     height: 80vh;
-//     padding: 20px;
-//     background-color: #000080; /* This is a dark blue color. */
-//     border-radius: 10px;
-//     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* This adds a subtle shadow to the card. */
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-// }
-
-.business-card {
-    text-align: center;
-    width: 80vw;
-    background-color: #000080;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    position: relative;
+.name {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 32px;
+    letter-spacing: 8px;
+    color: white; //#3B3B3B;
+    margin: 0;
 }
 
-.business-card:before {
-    content: "";
-    display: block;
-    padding-top: 57.14%; /* 1 / 1.75 = 0.5714, which is 57.14% */
-}
-
-.business-card-content {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.title {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: white; //#3B3B3B;
+  margin-bottom: 0;
 }
 
 
-
-.contact-icons {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.contact-icons img {
-    width: 24px;
-    height: 24px;
-    transition: transform 0.3s;
-
-    &:hover {
-        transform: scale(1.2);
-    }
-}
-
-.flip-card {
-  background-color: transparent;
-  width: 512px;
-  height: 512px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #555;
-  color: white;
-  transform: rotateY(180deg);
-}
+     /* Styling */  
+    // color: #fff;
+    // font-family: 'Open Sans', sans-serif;
+    // text-transform: uppercase;
+    // letter-spacing: 4px;
