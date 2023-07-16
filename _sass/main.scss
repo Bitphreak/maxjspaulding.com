@@ -1,24 +1,113 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300';
 
 $padding:30px;
+$card-aspect-ratio: 1.75;
+$card-width: 70vw;
+$card-height: $card-width / $card-aspect-ratio;
 
-* {
-    box-sizing: border-box;
+:root {
+    --card-width: 70vw;
+    --title-font-size: calc(var(--card-width) * .04);
+    --subtitle-font-size: calc(var(--card-width) * .02);
+    --subtitle-max-width: calc(var(--card-width) * .5);
+    --divider-verticle-margin: calc(var(--subtitle-font-size) * .6);
+    --icon-size: calc(var(--card-width) / 20);
+    --icon-padding: calc(var(--icon-size) / 2);
 }
 
 body {
     background: #757575;
-    overflow-x: hidden;
+    // overflow-x: hidden;
 }
 
 .card {
     position: absolute;
-    width: 700px;
-    height: 400px;
-    perspective: 1000px;
+    width: var(--card-width);
+    height: calc(var(--card-width) / 1.75);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.content {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.content-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    flex: 1;
+    align-items: center;
+}
+
+.content-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    flex: 1;
+}
+
+.content-bottom-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    flex: 1;
+    align-items: center;
+}
+
+.content-bottom-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    flex: 1;
+}
+
+.name {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--title-font-size); /* Adjust this value as needed */    
+    // font-size: 1.4em;
+    font-weight: normal;
+    line-height: 32px;
+    letter-spacing: 8px;
+    color: white; //#3B3B3B;
+    margin: 0;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    //font-size: 10em;
+    font-size: var(--subtitle-font-size); /* Adjust this value as needed */    
+    font-weight: normal;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 8px;
+    color: white; //#3B3B3B;
+    margin: 0;
+}
+  
+.last-title {
+margin-top: auto;
+}
+
+.divider {
+    width: 60%;
+    height: 1px;
+    background: #19F6E8;
+    margin: var(--divider-verticle-margin) auto;
 }
 
 .card-face, .card-back {
@@ -32,57 +121,38 @@ body {
     align-items: center;
     background: rgb(20,20,20);
     transition: transform 1s;
+    animation: delay 0.01s;
 }
 
-.card-back {
-    transform: rotateY(180deg);
-}
-
-.card:hover .card-face {
-    transform: rotateY(180deg);
-}
-
-.card:hover .card-back {
-    transform: rotateY(0);
-}
-
-.content {
-    outline: 1px solid #19F6E8;
-    display: inline-block;
-    border: 1px solid white;
-    padding: 10px;
-    
+.icon_row {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin-top: auto;
 }
 
-.name {
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.4em;
-    font-weight: normal;
-    line-height: 32px;
-    letter-spacing: 8px;
-    color: white; //#3B3B3B;
-    margin: 0;
+.icon svg {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    //margin: var(--icon-padding);
+    margin-left: var(--icon-padding);
+    margin-right: var(--icon-padding);
+    fill:white !important;
 }
 
-.title {
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  font-weight: normal;
-  line-height: 32px;
-  letter-spacing: 8px;
-  color: white; //#3B3B3B;
-  margin-bottom: 0;
+.icon svg:hover {
+  transform: scale(1.2); /* This will increase the size of the SVG by 20% */
+  transition: transform 0.3s ease-in-out; /* This will animate the transformation */
+  fill: #1434A4 !important;
 }
 
+.image-container {
+    width: 100px; /* Or any size you want */
+    height: 100px; /* Should be equal to the width to create a circle */
+    border-radius: 50%; /* This creates the circle */
+    overflow: hidden; /* This will clip the image to the shape of the div */
+}
 
-     /* Styling */  
-    // color: #fff;
-    // font-family: 'Open Sans', sans-serif;
-    // text-transform: uppercase;
-    // letter-spacing: 4px;
+.image-container img {
+    width: 100%;
+    height: auto;
+}
