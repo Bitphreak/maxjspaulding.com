@@ -1,0 +1,25 @@
+[
+  {
+    "id": "portfolio-site",
+    "title": "Personal Portfolio",
+    "description": "Modern portfolio site built with Next.js, TypeScript, and Tailwind CSS. Statically generated for optimal performance.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"],
+    "links": {
+      "github": "https://github.com/bitphreak/maxjspaulding.com",
+      "live": "https://maxjspaulding.com"
+    },
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "open-source-contrib",
+    "title": "Open Source Contributions",
+    "description": "Various contributions to open source projects focused on developer tooling and infrastructure.",
+    "technologies": ["TypeScript", "Go", "Python"],
+    "links": {
+      "github": "https://github.com/bitphreak"
+    },
+    "featured": false,
+    "order": 2
+  }
+]

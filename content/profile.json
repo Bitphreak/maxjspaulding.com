@@ -1,0 +1,16 @@
+{
+  "name": "Max Spaulding",
+  "title": "Architect and Engineering Lead",
+  "company": "Life360",
+  "location": "San Francisco, CA",
+  "email": "maxjspaulding@gmail.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/maxjspaulding",
+    "github": "https://github.com/bitphreak",
+    "blog": "https://bitphreak.dev"
+  },
+  "bio": {
+    "short": "Building scalable systems and leading engineering teams",
+    "extended": "Lead Engineer and Architect with over two decades of accomplishments as an engineering professional. Passionate about building scalable systems, mentoring engineers, and driving technical excellence.\n\nCurrently at Life360, where I architect solutions that help families stay connected and safe. Previously founded and led engineering efforts across multiple startups and established companies.\n\nI believe in simplicity, pragmatic engineering decisions, and building systems that stand the test of time."
+  }
+}

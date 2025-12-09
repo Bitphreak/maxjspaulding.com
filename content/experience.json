@@ -1,0 +1,34 @@
+[
+  {
+    "id": "life360-2023",
+    "company": "Life360",
+    "role": "Staff Engineer / Architect",
+    "location": "San Francisco, CA",
+    "startDate": "2023-01",
+    "endDate": null,
+    "isCurrent": true,
+    "description": "Leading architecture initiatives and driving technical excellence across engineering teams. Focused on building scalable, reliable systems that help families stay connected.",
+    "highlights": [
+      "Architecting scalable backend systems serving millions of users",
+      "Driving technical strategy and best practices across teams",
+      "Mentoring engineers and fostering a culture of excellence"
+    ],
+    "technologies": ["TypeScript", "Node.js", "AWS", "Kubernetes"]
+  },
+  {
+    "id": "previous-role",
+    "company": "Previous Company",
+    "role": "Senior Software Engineer",
+    "location": "San Francisco, CA",
+    "startDate": "2020-01",
+    "endDate": "2022-12",
+    "isCurrent": false,
+    "description": "Built and scaled critical infrastructure components. Led cross-functional initiatives to improve system reliability and developer experience.",
+    "highlights": [
+      "Designed and implemented microservices architecture",
+      "Reduced system latency by 40% through optimization efforts",
+      "Established engineering standards and code review processes"
+    ],
+    "technologies": ["Python", "Go", "PostgreSQL", "Docker"]
+  }
+]

@@ -30,11 +30,11 @@ Based on plan.md, this project uses Next.js App Router:
 
 **Purpose**: Project initialization with Next.js, TypeScript, and Tailwind CSS
 
-- [ ] T001 Initialize Next.js 14 project with TypeScript in repository root using `npx create-next-app@latest . --typescript --tailwind --app --src-dir=false`
-- [ ] T002 [P] Configure tailwind.config.ts with dark theme color palette from style guide (#0D1117, #161B22, #33AFFF, #1DD6A5, #E6E8EB, #8B95A1, #303842)
-- [ ] T003 [P] Configure next.config.js with `output: 'export'` for static generation
-- [ ] T004 [P] Create styles/globals.css with Tailwind directives and dark theme CSS custom properties
-- [ ] T005 [P] Create types/content.ts with Profile, ExperienceEntry, Project, NavLink, SocialLink interfaces from data-model.md
+- [x] T001 Initialize Next.js 14 project with TypeScript in repository root using `npx create-next-app@latest . --typescript --tailwind --app --src-dir=false`
+- [x] T002 [P] Configure tailwind.config.ts with dark theme color palette from style guide (#0D1117, #161B22, #33AFFF, #1DD6A5, #E6E8EB, #8B95A1, #303842)
+- [x] T003 [P] Configure next.config.js with `output: 'export'` for static generation
+- [x] T004 [P] Create styles/globals.css with Tailwind directives and dark theme CSS custom properties
+- [x] T005 [P] Create types/content.ts with Profile, ExperienceEntry, Project, NavLink, SocialLink interfaces from data-model.md
 
 ---
 
@@ -44,14 +44,14 @@ Based on plan.md, this project uses Next.js App Router:
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T007 Create content/profile.json with placeholder data matching Profile interface (name, title, company, location, email, links, bio)
-- [ ] T008 [P] Create content/experience.json with placeholder ExperienceEntry array (at least 2 entries)
-- [ ] T009 [P] Create content/projects.json with placeholder Project array (at least 2 entries)
-- [ ] T010 Create lib/content.ts with typed exports for profile, experience, and projects data
-- [ ] T011 [P] Create placeholder public/resume.pdf (empty or placeholder PDF)
-- [ ] T012 [P] Create public/favicon.ico with simple favicon
-- [ ] T013 [P] Create public/og-image.png placeholder for Open Graph social sharing
-- [ ] T014 Create components/Container.tsx with max-width wrapper (960px-1200px per style guide)
+- [x] T007 Create content/profile.json with placeholder data matching Profile interface (name, title, company, location, email, links, bio)
+- [x] T008 [P] Create content/experience.json with placeholder ExperienceEntry array (at least 2 entries)
+- [x] T009 [P] Create content/projects.json with placeholder Project array (at least 2 entries)
+- [x] T010 Create lib/content.ts with typed exports for profile, experience, and projects data
+- [x] T011 [P] Create placeholder public/resume.pdf (empty or placeholder PDF)
+- [x] T012 [P] Create public/favicon.ico with simple favicon
+- [x] T013 [P] Create public/og-image.png placeholder for Open Graph social sharing
+- [x] T014 Create components/Container.tsx with max-width wrapper (960px-1200px per style guide)
 
 **Checkpoint**: Foundation ready - all content files exist, types defined, base styling configured
 
@@ -65,11 +65,11 @@ Based on plan.md, this project uses Next.js App Router:
 
 ### Implementation for User Story 1
 
-- [ ] T015 [P] [US1] Create components/SocialIcons.tsx with email, LinkedIn, GitHub icon components (inline SVG, styled with Tailwind)
-- [ ] T016 [US1] Create app/page.tsx with business card layout displaying profile name, title, company, location from content/profile.json
-- [ ] T017 [US1] Add SocialIcons component to app/page.tsx with mailto: link for email, external links for LinkedIn/GitHub
-- [ ] T018 [US1] Add SEO metadata export to app/page.tsx (title: "Max Spaulding - Architect and Engineering Lead", description, Open Graph tags)
-- [ ] T019 [US1] Style app/page.tsx with dark theme, centered card layout, responsive design
+- [x] T015 [P] [US1] Create components/SocialIcons.tsx with email, LinkedIn, GitHub icon components (inline SVG, styled with Tailwind)
+- [x] T016 [US1] Create app/page.tsx with business card layout displaying profile name, title, company, location from content/profile.json
+- [x] T017 [US1] Add SocialIcons component to app/page.tsx with mailto: link for email, external links for LinkedIn/GitHub
+- [x] T018 [US1] Add SEO metadata export to app/page.tsx (title: "Max Spaulding - Architect and Engineering Lead", description, Open Graph tags)
+- [x] T019 [US1] Style app/page.tsx with dark theme, centered card layout, responsive design
 
 **Checkpoint**: Home page displays identity and working social links - MVP complete
 
@@ -83,15 +83,15 @@ Based on plan.md, this project uses Next.js App Router:
 
 ### Implementation for User Story 2
 
-- [ ] T020 [P] [US2] Create components/Header.tsx with navigation links (Home, About, Experience, Projects, Contact) and active state styling
-- [ ] T021 [P] [US2] Create components/Footer.tsx with copyright text and optional social links
-- [ ] T022 [US2] Create app/layout.tsx root layout with Header, Footer, metadata defaults, and Inter/Fira Code font configuration per style guide
-- [ ] T023 [P] [US2] Create app/about/page.tsx placeholder with page title and SEO metadata
-- [ ] T024 [P] [US2] Create app/experience/page.tsx placeholder with page title and SEO metadata
-- [ ] T025 [P] [US2] Create app/projects/page.tsx placeholder with page title and SEO metadata
-- [ ] T026 [P] [US2] Create app/contact/page.tsx placeholder with page title and SEO metadata
-- [ ] T027 [US2] Add active link highlighting to Header.tsx using usePathname hook
-- [ ] T028 [US2] Create app/not-found.tsx custom 404 page with navigation back to home
+- [x] T020 [P] [US2] Create components/Header.tsx with navigation links (Home, About, Experience, Projects, Contact) and active state styling
+- [x] T021 [P] [US2] Create components/Footer.tsx with copyright text and optional social links
+- [x] T022 [US2] Create app/layout.tsx root layout with Header, Footer, metadata defaults, and Inter/Fira Code font configuration per style guide
+- [x] T023 [P] [US2] Create app/about/page.tsx placeholder with page title and SEO metadata
+- [x] T024 [P] [US2] Create app/experience/page.tsx placeholder with page title and SEO metadata
+- [x] T025 [P] [US2] Create app/projects/page.tsx placeholder with page title and SEO metadata
+- [x] T026 [P] [US2] Create app/contact/page.tsx placeholder with page title and SEO metadata
+- [x] T027 [US2] Add active link highlighting to Header.tsx using usePathname hook
+- [x] T028 [US2] Create app/not-found.tsx custom 404 page with navigation back to home
 
 **Checkpoint**: All navigation works, placeholder pages exist, 404 handled
 
@@ -105,10 +105,10 @@ Based on plan.md, this project uses Next.js App Router:
 
 ### Implementation for User Story 3
 
-- [ ] T029 [US3] Implement app/about/page.tsx with extended bio section from profile.bio.extended
-- [ ] T030 [US3] Add career highlights/milestones section to app/about/page.tsx (can use hardcoded content or add to profile.json)
-- [ ] T031 [US3] Add resume download button/link to app/about/page.tsx pointing to /resume.pdf
-- [ ] T032 [US3] Style app/about/page.tsx with proper typography, spacing, and dark theme
+- [x] T029 [US3] Implement app/about/page.tsx with extended bio section from profile.bio.extended
+- [x] T030 [US3] Add career highlights/milestones section to app/about/page.tsx (can use hardcoded content or add to profile.json)
+- [x] T031 [US3] Add resume download button/link to app/about/page.tsx pointing to /resume.pdf
+- [x] T032 [US3] Style app/about/page.tsx with proper typography, spacing, and dark theme
 
 **Checkpoint**: About page complete with bio and resume download
 
@@ -122,10 +122,10 @@ Based on plan.md, this project uses Next.js App Router:
 
 ### Implementation for User Story 4
 
-- [ ] T033 [P] [US4] Create components/ExperienceCard.tsx displaying company, role, location, dates, description, highlights, optional tech tags
-- [ ] T034 [US4] Implement app/experience/page.tsx loading experience.json and rendering ExperienceCard for each entry
-- [ ] T035 [US4] Add "Current" badge styling for isCurrent=true entries in ExperienceCard.tsx
-- [ ] T036 [US4] Style experience page with timeline or card layout, responsive design
+- [x] T033 [P] [US4] Create components/ExperienceCard.tsx displaying company, role, location, dates, description, highlights, optional tech tags
+- [x] T034 [US4] Implement app/experience/page.tsx loading experience.json and rendering ExperienceCard for each entry
+- [x] T035 [US4] Add "Current" badge styling for isCurrent=true entries in ExperienceCard.tsx
+- [x] T036 [US4] Style experience page with timeline or card layout, responsive design
 
 **Checkpoint**: Experience page complete with all work history entries
 
@@ -139,10 +139,10 @@ Based on plan.md, this project uses Next.js App Router:
 
 ### Implementation for User Story 5
 
-- [ ] T037 [P] [US5] Create components/ProjectCard.tsx displaying title, description, technologies array, and links (GitHub, live, demo)
-- [ ] T038 [US5] Implement app/projects/page.tsx loading projects.json and rendering ProjectCard grid
-- [ ] T039 [US5] Add external link icons to ProjectCard.tsx for GitHub/live/demo links
-- [ ] T040 [US5] Style projects page with responsive grid layout (1 column mobile, 2-3 columns desktop)
+- [x] T037 [P] [US5] Create components/ProjectCard.tsx displaying title, description, technologies array, and links (GitHub, live, demo)
+- [x] T038 [US5] Implement app/projects/page.tsx loading projects.json and rendering ProjectCard grid
+- [x] T039 [US5] Add external link icons to ProjectCard.tsx for GitHub/live/demo links
+- [x] T040 [US5] Style projects page with responsive grid layout (1 column mobile, 2-3 columns desktop)
 
 **Checkpoint**: Projects page complete with portfolio cards
 
@@ -156,10 +156,10 @@ Based on plan.md, this project uses Next.js App Router:
 
 ### Implementation for User Story 6
 
-- [ ] T041 [US6] Implement app/contact/page.tsx with email display and mailto: link
-- [ ] T042 [US6] Add LinkedIn and GitHub profile links to app/contact/page.tsx
-- [ ] T043 [US6] Add optional call-to-action text (e.g., "Open to collaboration" or "Available for consulting")
-- [ ] T044 [US6] Style contact page with centered layout and large clickable links
+- [x] T041 [US6] Implement app/contact/page.tsx with email display and mailto: link
+- [x] T042 [US6] Add LinkedIn and GitHub profile links to app/contact/page.tsx
+- [x] T043 [US6] Add optional call-to-action text (e.g., "Open to collaboration" or "Available for consulting")
+- [x] T044 [US6] Style contact page with centered layout and large clickable links
 
 **Checkpoint**: Contact page complete with all contact methods
 
@@ -173,10 +173,10 @@ Based on plan.md, this project uses Next.js App Router:
 
 ### Implementation for User Story 7
 
-- [ ] T045 [US7] Audit all components for consistent color usage (bg-background, text-primary, accent colors)
-- [ ] T046 [US7] Add hover states to all interactive elements (links, buttons, cards) with accent color transitions
-- [ ] T047 [US7] Verify and fix responsive breakpoints across all pages (mobile 320px+, tablet, desktop)
-- [ ] T048 [US7] Add focus states for keyboard accessibility on all interactive elements
+- [x] T045 [US7] Audit all components for consistent color usage (bg-background, text-primary, accent colors)
+- [x] T046 [US7] Add hover states to all interactive elements (links, buttons, cards) with accent color transitions
+- [x] T047 [US7] Verify and fix responsive breakpoints across all pages (mobile 320px+, tablet, desktop)
+- [x] T048 [US7] Add focus states for keyboard accessibility on all interactive elements
 
 **Checkpoint**: Theme consistent across all pages, responsive design verified
 
@@ -196,7 +196,7 @@ Based on plan.md, this project uses Next.js App Router:
 - [ ] T055 Verify all external links work (email mailto:, LinkedIn, GitHub)
 - [ ] T056 Test site on Chrome, Firefox, Safari, Edge
 - [ ] T057 Test mobile responsiveness on real device or device emulator
-- [ ] T058 Verify static export works (`npm run build` produces /out directory)
+- [x] T058 Verify static export works (`npm run build` produces /out directory)
 
 ---
 
