@@ -72,6 +72,8 @@ The `_site/` directory and Jekyll files (`_config.yml`, `*.html`, `*.markdown`) 
 ## Active Technologies
 - TypeScript 5.x with Next.js 14.x (App Router) + Next.js, React 18, Tailwind CSS 3.x (001-portfolio-site-rebuild)
 - N/A (static site, no database) (001-portfolio-site-rebuild)
+- TypeScript 5.x + Next.js 14.x, React 18.x, react-markdown (lightweight markdown renderer) (002-markdown-bio)
+- JSON files (content/profile.json, content/experience.json) - no changes needed (002-markdown-bio)
 
 ## Recent Changes
 - 001-portfolio-site-rebuild: Added TypeScript 5.x with Next.js 14.x (App Router) + Next.js, React 18, Tailwind CSS 3.x
