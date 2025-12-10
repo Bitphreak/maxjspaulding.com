@@ -42,7 +42,19 @@ export default function AboutPage() {
             <li className="flex items-start gap-3">
               <span className="text-primary mt-1">•</span>
               <span className="text-text-primary">
-                Currently leading architecture initiatives at {profile.company}
+                Currently leading architecture initiatives at{" "}
+                {profile.companyUrl ? (
+                  <a
+                    href={profile.companyUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:text-secondary transition-colors"
+                  >
+                    {profile.company}
+                  </a>
+                ) : (
+                  profile.company
+                )}
               </span>
             </li>
             <li className="flex items-start gap-3">

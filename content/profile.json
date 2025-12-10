@@ -1,9 +1,10 @@
 {
   "name": "Max Spaulding",
   "title": "Architect and Engineering Lead",
-  "company": "Life360",
-  "location": "San Francisco, CA",
-  "email": "maxjspaulding@gmail.com",
+  "company": "Bespoke Agent",
+  "companyUrl": "https://www.bespokeagent.ai",
+  "location": "California",
+  "email": "maxjspaulding@bespokeagent.ai",
   "links": {
     "linkedin": "https://www.linkedin.com/in/maxjspaulding",
     "github": "https://github.com/bitphreak",
@@ -11,6 +12,6 @@
   },
   "bio": {
     "short": "Building scalable systems and leading engineering teams",
-    "extended": "Lead Engineer and Architect with over two decades of accomplishments as an engineering professional. Passionate about building scalable systems, mentoring engineers, and driving technical excellence.\n\nCurrently at Life360, where I architect solutions that help families stay connected and safe. Previously founded and led engineering efforts across multiple startups and established companies.\n\nI believe in simplicity, pragmatic engineering decisions, and building systems that stand the test of time."
+    "extended": "I'm an engineer-architect and founder with over two decades of experience building large-scale systems — from early-stage startups to mature consumer platforms. As the founder of Bespoke Agent AI under App Empire LLC, I specialize in designing and building AI-driven, autonomous software agents and infrastructure that scale reliably and remain maintainable over time.\n\nMy career has taught me that the best systems arise from simplicity, clarity, and disciplined engineering. I'm passionate about translating complex problems into clean, elegant designs — whether that's AI pipelines, distributed services, or developer tooling — and doing so with minimal friction and maximal longevity.\n\nIf you're looking for a technical partner who combines deep engineering experience, architectural rigor, and a pragmatic mindset — someone who builds for both the immediate problem *and* what comes next — you've found the right place. I'm always open to consulting, collaboration, or discussing novel ideas around autonomous systems, infrastructure, and intelligent agents."
   }
 }

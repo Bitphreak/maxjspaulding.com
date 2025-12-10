@@ -2,6 +2,7 @@ export interface Profile {
   name: string;
   title: string;
   company: string;
+  companyUrl?: string;
   location: string;
   email: string;
   links: {

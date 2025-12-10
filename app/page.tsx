@@ -45,7 +45,18 @@ export default function Home() {
             <p className="text-xl md:text-2xl text-text-muted">
               {profile.title}
             </p>
-            <p className="text-lg text-primary">{profile.company}</p>
+            {profile.companyUrl ? (
+              <a
+                href={profile.companyUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg text-primary hover:text-secondary transition-colors"
+              >
+                {profile.company}
+              </a>
+            ) : (
+              <p className="text-lg text-primary">{profile.company}</p>
+            )}
           </div>
 
           {/* Location */}
