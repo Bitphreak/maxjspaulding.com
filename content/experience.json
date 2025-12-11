@@ -1,34 +1,183 @@
 [
   {
-    "id": "life360-2023",
+    "id": "life360",
     "company": "Life360",
-    "role": "Staff Engineer / Architect",
+    "role": "Staff Software Engineer",
     "location": "San Francisco, CA",
-    "startDate": "2023-01",
-    "endDate": null,
-    "isCurrent": true,
-    "description": "Leading architecture initiatives and driving technical excellence across engineering teams. Focused on building scalable, reliable systems that help families stay connected.",
+    "startDate": "2019-09",
+    "endDate": "2023-02",
+    "isCurrent": false,
+    "description": "Senior - Staff Engineer on the growth, international, and product teams. Progressed from Senior Software Engineer to Staff Software Engineer over my tenure.",
     "highlights": [
-      "Architecting scalable backend systems serving millions of users",
-      "Driving technical strategy and best practices across teams",
-      "Mentoring engineers and fostering a culture of excellence"
+      "International Product Engineering and Compliance (Domestic and International)",
+      "Founded and led Mobile Academy for training and onboarding all Mobile Engineers",
+      "Led Android team's transition from Java to Kotlin and from Rx to Coroutines",
+      "Member of Life360 Architecture Council",
+      "Panelist at Launch Darkly Galaxy 2022 on integrating with LaunchDarkly",
+      "Created interviewing rubric and onboarding curriculum",
+      "Spun up teams totaling 100+ engineers in Ukraine, Romania, and other EMEA regions",
+      "Transition from Apptimize and in-house flagging to LaunchDarkly",
+      "Review of zero auth and passwordless auth solutions"
     ],
-    "technologies": ["TypeScript", "Node.js", "AWS", "Kubernetes"]
+    "technologies": ["Android", "Kotlin", "Java", "Coroutines", "LaunchDarkly", "iOS"]
   },
   {
-    "id": "previous-role",
-    "company": "Previous Company",
+    "id": "tonal",
+    "company": "Tonal",
+    "role": "Lead Android Engineer",
+    "location": "San Francisco, CA",
+    "startDate": "2017-02",
+    "endDate": "2019-01",
+    "isCurrent": false,
+    "description": "Software team lead for all software on the Tonal device, working across AOSP, fitness applications, and hardware integrations.",
+    "highlights": [
+      "AOSP development and customization",
+      "Built the main fitness application",
+      "Interfaced Android with embedded firmware components of Tonal",
+      "Integrated Tonal Smart Accessories with the Android platform",
+      "Implemented Bluetooth accessory support (wireless headsets, heart rate monitors)"
+    ],
+    "technologies": ["Android", "AOSP", "Bluetooth", "BLE", "Embedded Systems"]
+  },
+  {
+    "id": "keepsafe",
+    "company": "Keepsafe Software",
     "role": "Senior Software Engineer",
     "location": "San Francisco, CA",
-    "startDate": "2020-01",
-    "endDate": "2022-12",
+    "startDate": "2016-10",
+    "endDate": "2017-01",
     "isCurrent": false,
-    "description": "Built and scaled critical infrastructure components. Led cross-functional initiatives to improve system reliability and developer experience.",
+    "description": "Senior Software Engineer for Android applications, working on the Keep Safe Vault product.",
     "highlights": [
-      "Designed and implemented microservices architecture",
-      "Reduced system latency by 40% through optimization efforts",
-      "Established engineering standards and code review processes"
+      "Developed features for Keep Safe Vault Android application"
     ],
-    "technologies": ["Python", "Go", "PostgreSQL", "Docker"]
+    "technologies": ["Android", "Java"]
+  },
+  {
+    "id": "razer",
+    "company": "Razer, Inc.",
+    "role": "Engineering Lead, Mobile Apps Team",
+    "location": "San Francisco, CA",
+    "startDate": "2015-02",
+    "endDate": "2016-08",
+    "isCurrent": false,
+    "description": "Project and team lead for Android and iOS mobile applications. Progressed from Senior Mobile Engineer to Engineering Lead.",
+    "highlights": [
+      "Led development for Razer Leviathan Mini companion app",
+      "Led development for Razer Nabu Watch and Fitness Band apps",
+      "Built RazerGo - Android, iOS, and Web location-based chat app in 1 week",
+      "Wrote an RTMP server from spec in C++ that runs on Android NDK and iOS"
+    ],
+    "technologies": ["Android", "iOS", "Objective-C", "Swift", "C++", "NDK", "BLE", "Bluetooth"]
+  },
+  {
+    "id": "novoa-media",
+    "company": "Novoa Media Inc.",
+    "role": "Senior Architect",
+    "location": "San Francisco, CA",
+    "startDate": "2011-01",
+    "endDate": "2015-12",
+    "isCurrent": false,
+    "description": "Foremost Technical Consultant and Senior Architect across iOS, Android, and Web. Provided insights into how all the different pieces of a platform connect, interact, and create results for clients.",
+    "highlights": [
+      "Disney Movie Anywhere & Disney Medusa",
+      "P90X fitness application",
+      "Grindr mobile application",
+      "Nook Video application",
+      "Ticketmaster integration",
+      "ComicBook and Nailtini apps"
+    ],
+    "technologies": ["iOS", "Android", "Objective-C", "Java", "Web"]
+  },
+  {
+    "id": "mobile-sentience",
+    "company": "Mobile Sentience LLC",
+    "role": "Owner",
+    "location": "San Francisco, CA",
+    "startDate": "2011-01",
+    "endDate": "2017-12",
+    "isCurrent": false,
+    "description": "LLC for personal projects and consulting services. Design and development of Android and iOS apps, client consultation, and cloud services.",
+    "highlights": [
+      "Design and development of Android and iOS apps",
+      "Client consultation services",
+      "WordPress Plugins (Advertwhirl, Virtual Theme)",
+      "GAE/AWS/Stackmob integrations",
+      "Affiliate API integrations"
+    ],
+    "technologies": ["Android", "iOS", "AWS", "GAE", "WordPress", "PHP"]
+  },
+  {
+    "id": "mc2-research",
+    "company": "MC2 Research LLC",
+    "role": "Senior Software Engineer - Owner Partner",
+    "location": "Denver, CO",
+    "startDate": "2005-01",
+    "endDate": "2010-12",
+    "isCurrent": false,
+    "description": "Responsible for designing and developing applications that help leaders make multi-million dollar procurement decisions. Primary focus was for the Toughbook division of Panasonic Corporation.",
+    "highlights": [
+      "Led an 18-month, 3.5 MLOC project resulting in $56M adjusted pipeline in new revenue for Panasonic Toughbook",
+      "Real Time Network Analytics tool for a Tier 1 Network",
+      "Rewrote legacy high-performance SQL data injector from C to Java while maintaining performance",
+      "Created PERL-based Bayesian Document Classifier",
+      "Built cross-platform computer forensics examination tool (Windows XP, Vista, Linux, Mac OSX)",
+      "Introduced i18n/l10n support extending application usage to 14 industries across NA, Europe, and Asia Pacific",
+      "Built custom Linux distribution for handheld devices based on commell-le363",
+      "Fixed touch screen driver bugs resulting in 50%+ cost reduction per terminal for client"
+    ],
+    "technologies": ["Java", "C", "C++", "PERL", "Python", "Linux", "Embedded Systems"]
+  },
+  {
+    "id": "echo-broadband",
+    "company": "Echo Broadband, GmbH",
+    "role": "Senior IP Engineer Europe",
+    "location": "Bonn, Germany",
+    "startDate": "2002-01",
+    "endDate": "2004-12",
+    "isCurrent": false,
+    "description": "Principal IP and ISP technology consultant to the Wireless networking group, European sales team, Keppel T&T's Technology Investments & Asset Acquisitions team, and in-house Software Development.",
+    "highlights": [
+      "Identified a $20M fault on an acquisition while reviewing technology for Keppel T&T",
+      "Trained a ground-up wireless group to perform IP for 3G rollouts",
+      "Designed the largest European Caching Network using Network Appliances NetCache",
+      "Built B52 - distributed L7 Traffic generation system with plug-in modules for IP applications",
+      "Developed bandwidth assessment scripts to forecast caching impact on networks",
+      "Linked DOCSYS to Small World GIS"
+    ],
+    "technologies": ["IP Networking", "SMTP", "POP3", "IMAP4", "HTTP", "Caching", "3G"]
+  },
+  {
+    "id": "hsa-international",
+    "company": "High Speed Access International, Inc.",
+    "role": "Senior ISP Services Engineer Europe",
+    "location": "Bonn, Germany / Herndon, VA",
+    "startDate": "2001-01",
+    "endDate": "2001-12",
+    "isCurrent": false,
+    "description": "Designed and developed ISP services solutions for HSA International's European customers.",
+    "highlights": [
+      "Designed and built data center for 1 million customers scalable to 4 million",
+      "Built and configured all servers for Germany's second largest cable provider (4 million homes past)"
+    ],
+    "technologies": ["ISP Infrastructure", "Data Center", "Server Administration"]
+  },
+  {
+    "id": "time-warner-telecom",
+    "company": "Time Warner Telecom, Inc.",
+    "role": "Lead Systems Engineer",
+    "location": "Milwaukee, WI",
+    "startDate": "1997-01",
+    "endDate": "2001-12",
+    "isCurrent": false,
+    "description": "Top network operator and final point-of-escalation for the National Network Operations Center. Responsibilities included WAN and LAN network design, systems administration, vendor selection, and technical lead on all customer performance and SLA investigations.",
+    "highlights": [
+      "Formally recognized by Senior Officers as MVP of Time Warner Telecom Internet and Data Division",
+      "Invited to the 2001 Summit of Leaders for outstanding contributions",
+      "WAN and LAN network design",
+      "Systems administration and vendor selection",
+      "Technical lead on customer performance and SLA investigations"
+    ],
+    "technologies": ["WAN", "LAN", "Network Operations", "Systems Administration"]
   }
 ]

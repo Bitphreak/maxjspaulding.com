@@ -1,25 +1,164 @@
 [
   {
-    "id": "portfolio-site",
-    "title": "Personal Portfolio",
-    "description": "Modern portfolio site built with Next.js, TypeScript, and Tailwind CSS. Statically generated for optimal performance.",
-    "technologies": ["Next.js", "TypeScript", "Tailwind CSS"],
+    "id": "tonal",
+    "title": "Tonal",
+    "description": "Smart home gym with digital weight system and AI-powered coaching.",
+    "longDescription": "Lead Android Engineer for all software on the Tonal device. Built the main fitness app, AOSP customizations, and integrations with embedded firmware, smart accessories, and Bluetooth peripherals. Tonal holds ~90% market share in connected strength training.",
+    "technologies": ["Android", "AOSP", "Bluetooth", "BLE", "Embedded Systems"],
     "links": {
-      "github": "https://github.com/bitphreak/maxjspaulding.com",
-      "live": "https://maxjspaulding.com"
+      "live": "https://tonal.com"
     },
     "featured": true,
     "order": 1
   },
   {
-    "id": "open-source-contrib",
-    "title": "Open Source Contributions",
-    "description": "Various contributions to open source projects focused on developer tooling and infrastructure.",
-    "technologies": ["TypeScript", "Go", "Python"],
+    "id": "life360",
+    "title": "Life360",
+    "description": "Family safety and location sharing app with 80M+ monthly active users.",
+    "longDescription": "Staff Engineer on growth, international, and product teams. Founded Mobile Academy, led Android team's transition from Java to Kotlin and Rx to Coroutines, and helped spin up 100+ engineers across EMEA. Panelist at LaunchDarkly Galaxy 2022.",
+    "technologies": ["Android", "iOS", "Kotlin", "Java", "Coroutines", "LaunchDarkly"],
     "links": {
-      "github": "https://github.com/bitphreak"
+      "live": "https://life360.com"
+    },
+    "featured": true,
+    "order": 2
+  },
+  {
+    "id": "keepsafe-vault",
+    "title": "Keepsafe Vault",
+    "description": "Private photo vault app with 75M+ downloads and 70M+ users.",
+    "longDescription": "Senior Software Engineer for Android applications. Developed features for the Keep Safe Vault, an award-winning photo locker trusted by millions to protect their private photos and videos.",
+    "technologies": ["Android", "Java"],
+    "links": {
+      "live": "https://www.getkeepsafe.com"
     },
     "featured": false,
-    "order": 2
+    "order": 3
+  },
+  {
+    "id": "grindr",
+    "title": "Grindr",
+    "description": "Social networking app with 14M+ monthly active users.",
+    "longDescription": "iOS development for one of the world's largest social networking apps, serving millions of users globally.",
+    "technologies": ["iOS", "Objective-C"],
+    "links": {
+      "live": "https://grindr.com"
+    },
+    "featured": false,
+    "order": 4
+  },
+  {
+    "id": "disney-movie-anywhere",
+    "title": "Disney Movie Anywhere",
+    "description": "Digital movie platform with 6M+ users and 150M+ movies stored.",
+    "longDescription": "Senior Architect at Novoa Media for Disney's digital movie platform. The service allowed users to access Disney, Pixar, Marvel, and Star Wars content across devices. Later evolved into Movies Anywhere.",
+    "technologies": ["Android", "iOS", "Objective-C", "Java"],
+    "links": {},
+    "featured": false,
+    "order": 5
+  },
+  {
+    "id": "p90x",
+    "title": "P90X",
+    "description": "Iconic fitness program app, part of Beachbody platform serving 30M+ customers.",
+    "longDescription": "Development work on the mobile app for Tony Horton's legendary P90X fitness program, bringing the intense 90-day workout regimen to mobile devices.",
+    "technologies": ["Android", "iOS"],
+    "links": {
+      "live": "https://www.bodi.com/us/en/s/fitness/p90x"
+    },
+    "featured": false,
+    "order": 6
+  },
+  {
+    "id": "nook-video",
+    "title": "Nook Video",
+    "description": "Barnes & Noble video streaming app for the NOOK ecosystem.",
+    "longDescription": "Android development for Barnes & Noble's video streaming service, part of the NOOK digital content platform with access to millions of titles.",
+    "technologies": ["Android", "Java"],
+    "links": {},
+    "featured": false,
+    "order": 7
+  },
+  {
+    "id": "razer-cortex",
+    "title": "Razer Cortex",
+    "description": "Gaming utility app for game boosting, launcher, and rewards.",
+    "longDescription": "Android development for Razer's gaming companion app featuring game boosting, a unified game launcher, streaming/recording capabilities, and the Razer Silver rewards program.",
+    "technologies": ["Android", "Java"],
+    "links": {
+      "live": "https://www.razer.com/cortex"
+    },
+    "featured": false,
+    "order": 8
+  },
+  {
+    "id": "razer-nabu",
+    "title": "Razer Nabu",
+    "description": "Companion app for Razer Nabu fitness band.",
+    "longDescription": "Android and iOS development for the companion app to Razer's Nabu fitness band, enabling fitness tracking, notifications, and social features.",
+    "technologies": ["Android", "iOS", "Objective-C", "Swift", "BLE", "Bluetooth"],
+    "links": {},
+    "featured": false,
+    "order": 9
+  },
+  {
+    "id": "razergo",
+    "title": "RazerGo",
+    "description": "Location-based Pokemon GO chat app built in one week.",
+    "longDescription": "Engineering Lead for a location-based chat messenger for Pokemon GO players. Built Android, iOS, and web versions in just one week. Featured scalable radius chat from 5km to 1,000km with team-based chat modes.",
+    "technologies": ["Android", "iOS", "Web", "Java", "Objective-C"],
+    "links": {},
+    "featured": false,
+    "order": 10
+  },
+  {
+    "id": "nytch",
+    "title": "Nytch",
+    "description": "iOS application.",
+    "longDescription": "iOS development work on the Nytch application.",
+    "technologies": ["iOS", "Objective-C"],
+    "links": {},
+    "featured": false,
+    "order": 11
+  },
+  {
+    "id": "disney-medusa",
+    "title": "Disney Medusa",
+    "description": "Internal Disney iOS application.",
+    "longDescription": "iOS development for Disney's internal Medusa project at Novoa Media.",
+    "technologies": ["iOS", "Objective-C"],
+    "links": {},
+    "featured": false,
+    "order": 12
+  },
+  {
+    "id": "razer-leviathan-mini",
+    "title": "Razer Leviathan Mini",
+    "description": "Bluetooth speaker companion app.",
+    "longDescription": "Engineering Lead for the companion app for Razer's Leviathan Mini portable Bluetooth speaker, enabling audio customization and device control.",
+    "technologies": ["Android", "iOS", "Bluetooth"],
+    "links": {},
+    "featured": false,
+    "order": 13
+  },
+  {
+    "id": "razer-nabu-watch",
+    "title": "Razer Nabu Watch",
+    "description": "Smartwatch companion app.",
+    "longDescription": "Engineering Lead for the companion app for Razer's Nabu Watch smartwatch, providing notification management, fitness tracking, and device customization.",
+    "technologies": ["Android", "iOS", "BLE", "Bluetooth"],
+    "links": {},
+    "featured": false,
+    "order": 14
+  },
+  {
+    "id": "razer-nabu-fitness-band",
+    "title": "Razer Nabu Fitness Band",
+    "description": "Fitness tracker companion app.",
+    "longDescription": "Engineering Lead for the companion app for Razer's Nabu Fitness Band, enabling activity tracking, sleep monitoring, and social fitness features.",
+    "technologies": ["Android", "iOS", "BLE", "Bluetooth"],
+    "links": {},
+    "featured": false,
+    "order": 15
   }
 ]
